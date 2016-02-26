@@ -1,0 +1,72 @@
+/* Empty. Add your own CSS if you like */
+.nav-bgrd{
+	background-color: #4D4D4D !important;
+}
+.background{
+	background: #f15f43 !important;
+}
+.nav-bgrd .title, .background .title{
+	color: #ffffff !important;
+}
+.list ion-item a {
+	background: #2e353d !important;
+	color: #ffffff;
+}
+button.button.button-icon.icon.ion-navicon{
+	color: #ffffff;
+}
+ion-content.scroll-content.ionic-scroll.has-header{
+	background-color: #f3f3f3;
+}
+.align-center{
+	text-align: center;
+}
+button.button.button-small.button-positive, button.button.button-small.button-outline.button-stable{
+	font-size: 16px;
+}
+.w50{
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+.pading{
+	padding: 5px;
+}
+h3{
+	color: #f00;
+	text-align: center;
+}
+.mgn-btm label{
+	margin-bottom: 10px;
+}
+.req{
+	color: #3399cc;
+}
+i.icon{
+	font-size: 18px;
+	margin-right: 10px;
+	vertical-align: text-bottom;
+}
+i.icon.ion-android-add-circle{
+	color: #ef473a;
+}
+.button-small .icon:before, .button-small.icon:before, .button-small.icon-left:before, .button-small.icon-right:before{
+	font-size: 40px;
+}
+.max-width{
+	max-width: 100% !important;
+	width: 100%;
+}
+button.button.button-clear.button-small.icon-btn{
+	position: absolute;
+	left: 80%;
+}
+.lbl-hgt label{
+	height: 35px;
+	border-radius: 5px;
+}
+i.icon.ion-minus-circled{
+	font-size: 24px;
+	color: #444;
+	line-height: 35px;
+}
