@@ -51,21 +51,50 @@ angular.module('starter.controllers', [])
     { title: 'Cowbell', id: 6 }
   ];
 })
+
 .controller('skillsCtrl', function($scope, $stateParams) {
   console.log("skillsCtrl")
-  var item=4
-    $scope.items=[]
+  var item=3
+  $scope.items=[]
 
-    for(i=0;i<item;i++)
-      $scope.items.push(i)
+  for(i=0; i<item; i++)
+    $scope.items.push(i)
 
   $scope.addItem = function(){
     console.log(item)
     item++;
-    $scope.items.push(item)
-  }
+    if ($scope.items.length < 5) {
+      $scope.items.push(item)
+    };
+  };
+
+  $scope.onItemDelete = function(item) {
+    $scope.items.splice($scope.items.indexOf(item), 1);
+  };
 })
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+
+.controller('profileCtrl', function($scope, $stateParams) {
+})
+
+.controller('educationCtrl', function($scope, $stateParams) {
+})
+
+.controller('othersCtrl', function($scope, $stateParams) {
+  console.log('othersCtrl')
+  var item=3
+  $scope.items=[]
+
+  for (var i = 0; i < item; i++) 
+    $scope.items.push(i)
+})
+
+.controller('summaryCtrl', function($scope, $stateParams) {
+})
+
+.controller('projectsCtrl', function($scope, $stateParams) {
+})
+
+
+
 
 

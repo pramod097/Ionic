@@ -51,15 +51,16 @@ i.icon.ion-android-add-circle{
 	color: #ef473a;
 }
 .button-small .icon:before, .button-small.icon:before, .button-small.icon-left:before, .button-small.icon-right:before{
-	font-size: 40px;
+	font-size: 60px;
 }
 .max-width{
 	max-width: 100% !important;
 	width: 100%;
 }
 button.button.button-clear.button-small.icon-btn{
-	position: absolute;
+	position: fixed;
 	left: 80%;
+	top: 50em;
 }
 .lbl-hgt label{
 	height: 35px;
@@ -70,4 +71,9 @@ i.icon.ion-minus-circled{
 	color: #444;
 	line-height: 35px;
 }
-/*comment*/
+input.icr-input{
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+
