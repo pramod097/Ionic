@@ -109,7 +109,7 @@ button.button.button-icon.button-clear.ion-ios-play{
     background: #ffffff;
     border-radius: 50%;
     width: 50px;
-    height: 50px;
+    min-height: 50px;
     line-height: 1;
     letter-spacing: -5px;
 }
@@ -117,11 +117,11 @@ button.button.button-icon.button-clear.ion-ios-skipbackward{
 	background-color: #ffffff;
     color: #666666;
     position: absolute;
-    top: 27%;
-    left: 30%;
+    top: 28%;
+    left: 34%;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    min-height: 35px;
     line-height: 1;
     font-size: 22px;
 }
@@ -129,11 +129,11 @@ button.button.button-icon.button-clear.ion-ios-skipforward{
 	background-color: #ffffff;
     color: #666666;
     position: absolute;
-    top: 27%;
+    top: 28%;
     left: 60%;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    min-height: 35px;
     line-height: 1;
     font-size: 22px;
 }
