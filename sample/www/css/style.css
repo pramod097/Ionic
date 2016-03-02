@@ -1,0 +1,155 @@
+/* Empty. Add your own CSS if you like */
+
+ion-header-bar.bar-stable.bar.bar-header{
+	background-color: #3ac6fe;
+}
+
+button.button.button-icon.button-clear.ion-navicon-round, 
+button.button.button-icon.button-clear.ion-ios-cart
+{
+	color: #ffffff;
+}
+
+button.button.button-icon.button-clear.ion-waterdrop{
+	color: #ffffff;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 45px;
+}
+
+button.button.button-icon.button-clear.ion-search{
+	color: #ffffff;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 45px;
+}
+
+ion-item.item{
+	color: #3ac6fe;
+	font-size: 20px;
+}
+
+.right{
+	float: right;
+}
+
+ion-item.prodlist{
+	color: #6e6e6e;
+	font-size: 16px;
+}
+
+.padding{
+	padding: 15px;
+}
+
+.img{
+	width: 100%;
+}
+
+.img-bottom{
+	width: 100%;
+	height: 190px;
+	margin-bottom: 15px;
+}
+
+.item-avatar{
+	padding-left: 85px;
+}
+
+.item-avatar > img:first-child{
+	max-width: 50px;
+	max-height: 50px;
+	top: 11px;
+	left: 15px;
+}
+
+.item p{
+	font-size: 16px;
+}
+
+.item h2{
+	font-weight: 500;
+}
+
+.mgn-btm{
+	margin-bottom: 10px;
+}
+
+.botom{
+	border-width: 0px;
+}
+
+.botom a{
+	margin-bottom: -10px;
+}
+/*slider*/
+.slider-pager{
+	height: 25px;
+}
+.slider-pager .slider-pager-page{
+	color: #3ac6fe;
+	opacity: 1;
+}
+.slider-pager .slider-pager-page.active{
+	color: #ffffff;
+}
+
+.center{
+	text-align: center;
+}
+button.button.button-icon.button-clear.ion-ios-play{
+	font-size: 32px;
+    color: #666666;
+    border: solid #ffffff;
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    letter-spacing: -5px;
+}
+button.button.button-icon.button-clear.ion-ios-skipbackward{
+	background-color: #ffffff;
+    color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    font-size: 22px;
+}
+button.button.button-icon.button-clear.ion-ios-skipforward{
+	background-color: #ffffff;
+    color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    font-size: 22px;
+}
+button.button.button-icon.button-clear.ion-android-settings{
+	color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    font-size: 20px;
+}
+button.button.button-icon.button-clear.ion-android-volume-down{
+	color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+}
+
+
