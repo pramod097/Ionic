@@ -24,6 +24,10 @@ angular.module('starter.controllers', [])
     $scope.products = !$scope.products ;
   }
 
+  $scope.play= function(){
+    $scope.button=true;
+  }
+
   // Triggered in the login modal to close it
   $scope.closeLogin = function() {
     $scope.modal.hide();

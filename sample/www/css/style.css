@@ -4,22 +4,37 @@ ion-header-bar.bar-stable.bar.bar-header{
 	background-color: #3ac6fe;
 }
 
+.bar-header{
+	height: 60px;
+	top: initial;
+}
+
+.bar.bar-stable .title{
+	top: initial;
+	font-size: 24px;
+	color: #666666;
+}
+
+.has-header{
+	top: 60px;
+}
+
 button.button.button-icon.button-clear.ion-navicon-round, 
 button.button.button-icon.button-clear.ion-ios-cart
 {
-	color: #ffffff;
+	color: #f1f1f1;
 }
 
 button.button.button-icon.button-clear.ion-waterdrop{
-	color: #ffffff;
+	color: #f1f1f1;
 	position: absolute;
 	top: 5px;
 	bottom: 5px;
 	left: 45px;
 }
 
-button.button.button-icon.button-clear.ion-search{
-	color: #ffffff;
+button.button.button-icon.button-clear.ion-android-search{
+	color: #f1f1f1;
 	position: absolute;
 	top: 5px;
 	bottom: 5px;
@@ -35,13 +50,16 @@ ion-item.item{
 	float: right;
 }
 
+.icon-right{
+	float: right;
+	font-size: 24px;
+	color: #3ac6fe;
+	margin-top: 8px;
+}
+
 ion-item.prodlist{
 	color: #6e6e6e;
 	font-size: 16px;
-}
-
-.padding{
-	padding: 15px;
 }
 
 .img{
@@ -50,7 +68,7 @@ ion-item.prodlist{
 
 .img-bottom{
 	width: 100%;
-	height: 190px;
+	height: 215px;
 	margin-bottom: 15px;
 }
 
@@ -65,18 +83,33 @@ ion-item.prodlist{
 	left: 15px;
 }
 
+.item-thumbnail-left > img:first-child{
+	top: 21px;
+}
 .item p{
 	font-size: 16px;
 }
 
 .item h2{
 	font-weight: 500;
+	white-space: normal;
+	font-size: 17px;
 }
 
 .mgn-btm{
 	margin-bottom: 10px;
 }
 
+.list-space{
+	margin-bottom: 12px;
+	min-height: 125px;
+	padding-top: 20px;
+	border-color: #3ac6fe;
+}
+
+.p-margin{
+	margin: 25px 0 0;
+}
 .botom{
 	border-width: 0px;
 }
@@ -104,7 +137,7 @@ button.button.button-icon.button-clear.ion-ios-play{
     color: #666666;
     border: solid #ffffff;
     position: absolute;
-    top: 27%;
+    top: 25%;
     left: 45%;
     background: #ffffff;
     border-radius: 50%;
@@ -117,7 +150,7 @@ button.button.button-icon.button-clear.ion-ios-skipbackward{
 	background-color: #ffffff;
     color: #666666;
     position: absolute;
-    top: 28%;
+    top: 27%;
     left: 34%;
     border-radius: 50%;
     width: 35px;
@@ -129,7 +162,7 @@ button.button.button-icon.button-clear.ion-ios-skipforward{
 	background-color: #ffffff;
     color: #666666;
     position: absolute;
-    top: 28%;
+    top: 27%;
     left: 60%;
     border-radius: 50%;
     width: 35px;
@@ -143,6 +176,7 @@ button.button.button-icon.button-clear.ion-android-settings{
     top: 27%;
     left: 20%;
     font-size: 20px;
+    text-shadow: 0px 2px #ffffff;
 }
 button.button.button-icon.button-clear.ion-android-volume-down{
 	color: #666666;
@@ -150,6 +184,45 @@ button.button.button-icon.button-clear.ion-android-volume-down{
     position: absolute;
     top: 27%;
     left: 75%;
+    text-shadow: 0px 2px #ffffff;
 }
 
+.heading{
+	padding: 10px 0 0;
+	text-align: center;
+	color: #707070;
+	font-weight: 400;
+}
+
+/*details*/
+
+.price-dtls{
+	border: none;
+}
+
+.price-dtls .input-label{
+	font-size: 20px;
+}
+
+span#_label-1{
+	margin-left: 7%;
+}
+
+.cart-btn button.button.button-small.button-positive{
+	font-size: 18px;
+	padding: 5px;
+	width: 75%
+}
+
+button.button.button-icon.button-clear.ion-arrow-expand{
+	color: #f1f1f1;
+    font-size: 28px;
+    position: absolute;
+    top: 40px;
+}
+
+.cart-btn{
+	margin-left: 18%;
+	width: 100%;
+}
 
