@@ -273,3 +273,23 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	max-width: 110px;
 	max-height: 128px;
 }
+
+.cart-thumbnail button.ion-close-circled{
+	font-size: 22px;
+	position: absolute;
+	top: -5%;
+	right: 0;
+}
+
+.cart-details{
+	padding-top: 10px;
+}
+
+.buy-btn button.button.button-small.button-positive{
+	width: 35%;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 18px;
+	padding: 5px;
+}
