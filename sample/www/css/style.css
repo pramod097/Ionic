@@ -83,7 +83,7 @@ ion-item.prodlist{
 	left: 15px;
 }
 
-.item-thumbnail-left > img:first-child{
+.item-thumbnail-left .thumbnail > img:first-child{
 	top: 21px;
 }
 .item p{
@@ -92,7 +92,6 @@ ion-item.prodlist{
 
 .item h2{
 	font-weight: 500;
-	white-space: normal;
 	font-size: 17px;
 }
 
@@ -198,14 +197,15 @@ button.button.button-icon.button-clear.ion-android-volume-down{
 
 .price-dtls{
 	border: none;
+	padding: 0 10px;
 }
 
 .price-dtls .input-label{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 span#_label-1{
-	margin-left: 7%;
+	margin-left: 5%;
 }
 
 .cart-btn button.button.button-small.button-positive{
@@ -226,3 +226,50 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	width: 100%;
 }
 
+.item .p-details{
+	white-space: normal;
+	font-size: 14px;
+}
+
+.quant-val input{
+	border: 1px solid;
+	border-radius: 3px;
+	width: 45%;
+	margin-left: 10%;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+.quant-val button.button.button-icon.button-clear.ion-arrow-up-b,
+.quant-val button.button.button-icon.button-clear.ion-arrow-down-b{
+	font-size: 24px;
+	margin: -15% 26%;
+	color: #80c2fe;
+}
+
+.quant-val .button:after{
+	position: static;
+}
+
+/*cart*/
+
+.cart i.icon.ion-ios-cart{
+	color: #3ac6fe;
+	font-size: 32px;
+	margin-right: 2%;
+}
+
+.item .cart{
+	font-size: 20px;
+}
+
+a.item.item-thumbnail-left.cart-thumbnail{
+	min-height: 150px;
+	padding-left: 150px;
+}
+
+a.item.item-thumbnail-left.cart-thumbnail img{
+	max-width: 110px;
+	max-height: 128px;
+}
