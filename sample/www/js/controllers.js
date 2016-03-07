@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout,$location) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -22,10 +22,6 @@ angular.module('starter.controllers', [])
 
   $scope.getProducts= function(){
     $scope.products = !$scope.products ;
-  }
-
-  $scope.location= function(){
-    $location.path('/app/cart');
   }
 
   // Triggered in the login modal to close it

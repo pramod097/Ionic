@@ -204,7 +204,7 @@ button.button.button-icon.button-clear.ion-android-volume-down{
 	font-size: 18px;
 }
 
-span#_label-1{
+.price-dtls .span1{
 	margin-left: 5%;
 }
 
@@ -292,4 +292,47 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	right: 20px;
 	font-size: 18px;
 	padding: 5px;
+}
+
+/*user_details*/
+.item-checkbox{
+	border: none;
+}
+.details_list .input-label{
+	float: left;
+	font-size: 18px;
+}
+.details_list{
+	margin-bottom: 50px;
+}
+.details_list input{
+	height: 20px;
+}
+.details_list .item-input{
+	border-top: none;
+	border-color: #3ac6fe;
+}
+.details_list textarea{
+	padding-right: 12px;
+}
+.width .input-label{
+	width: 25%;
+}
+.padding1{
+	padding: 25px 0;
+}
+.item-checkbox .checkbox{
+	left: 80%;
+}
+.checkbox input:before, .checkbox .checkbox-icon:before,
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
+	border-color: #3ac6fe;
+}
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
+	background: transparent;
+}
+.checkbox input:after, .checkbox-icon:after{
+	border: 2px solid #3ac6fe;
+	border-top: 0;
+	border-right: 0;
 }
