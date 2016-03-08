@@ -327,6 +327,7 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 .checkbox input:before, .checkbox .checkbox-icon:before,
 .checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
 	border-color: #3ac6fe;
+	border-radius: 0px;
 }
 .checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
 	background: transparent;
@@ -335,4 +336,41 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	border: 2px solid #3ac6fe;
 	border-top: 0;
 	border-right: 0;
+}
+
+/*orders*/
+
+.row1 .col-35, .row1 .col-40, .row1 .col-25{
+	background: #2682cc;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	border-right: 1px solid #ffffff;
+}
+.row2 .col-35, .row2 .col-40, .row2 .col-25{
+	background: #33adee;
+	text-align: center;
+	color: #0b3a50;
+	font-size: 15px;
+	border-right: 1px solid #ffffff;
+	height: 40px;
+}
+.row3 .col-35, .row3 .col-40, .row3 .col-25{
+	background: #2eabbd;
+	text-align: center;
+	color: #0b3a50;
+	font-size: 15px;
+	border-right: 1px solid #ffffff;
+	height: 40px;
+}
+.row4 .col-35, .row4 .col-40, .row4 .col-25{
+	background: #2ba997;
+	text-align: center;
+	color: #0b3a50;
+	font-size: 15px;
+	border-right: 1px solid #ffffff;
+	height: 40px;
+}
+.row.row2, .row.row3, .row.row4{
+	margin-top: -3px;
 }

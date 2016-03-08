@@ -90,6 +90,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+    .state('app.orders', {
+      url: '/orders',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/orders.html',
+        }
+      }
+    })
+
 
 
   
