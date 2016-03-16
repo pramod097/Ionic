@@ -7,7 +7,7 @@
 angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform,$rootScope,$location) {
-   $rootScope.location= function(path){
+    $rootScope.location= function(path){
       $location.path(path);
     }
   
@@ -29,7 +29,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-    .state('app', {
+
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'LoginCtrl'
+    })
+
+  .state('app', {
     url: '/app',
     abstract: true,
     templateUrl: 'templates/menu.html',
@@ -100,8 +107,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })
 
 
+    .state('app.order_details', {
+      url: '/order_details',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/order_details.html'
+        }
+      }
+    })
+
+
 
   
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/main');
+  $urlRouterProvider.otherwise('/login');
 });

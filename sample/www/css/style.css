@@ -106,6 +106,10 @@ ion-item.prodlist{
 	border-color: #3ac6fe;
 }
 
+.list-space img{
+	top: 20px !important;
+}
+
 .p-margin{
 	margin: 25px 0 0;
 }
@@ -116,6 +120,8 @@ ion-item.prodlist{
 .botom a{
 	margin-bottom: -10px;
 }
+
+
 /*slider*/
 .slider-pager{
 	height: 25px;
@@ -344,7 +350,7 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	background: #2682cc;
 	text-align: center;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 16px;
 	border-right: 1px solid #ffffff;
 }
 .row2 .col-35, .row2 .col-40, .row2 .col-25{
@@ -353,7 +359,7 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	color: #0b3a50;
 	font-size: 15px;
 	border-right: 1px solid #ffffff;
-	height: 40px;
+	padding: 10px;
 }
 .row3 .col-35, .row3 .col-40, .row3 .col-25{
 	background: #2eabbd;
@@ -361,7 +367,8 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	color: #0b3a50;
 	font-size: 15px;
 	border-right: 1px solid #ffffff;
-	height: 40px;
+	padding: 10px;
+	
 }
 .row4 .col-35, .row4 .col-40, .row4 .col-25{
 	background: #2ba997;
@@ -369,8 +376,39 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	color: #0b3a50;
 	font-size: 15px;
 	border-right: 1px solid #ffffff;
-	height: 40px;
+	padding: 10px;
+	
 }
 .row.row2, .row.row3, .row.row4{
 	margin-top: -3px;
+}
+
+.deliver{
+	white-space: normal;
+}
+
+/*login*/
+
+.item-floating-label .input-label{
+	color: #3ac6fe;
+}
+
+.loginimg img{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.loginimg{
+	text-align: center;
+	padding: 40px;
+}
+
+.loginimg p{
+	font-size: 24px;
+}
+
+.login_bgrd{
+	background: rgba(168, 238,239, 0.5);
 }
