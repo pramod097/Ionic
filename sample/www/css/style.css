@@ -211,7 +211,7 @@ button.button.button-icon.button-clear.ion-android-volume-down{
 }
 
 .price-dtls .span1{
-	margin-left: 5%;
+	margin-left: 3%;
 }
 
 .cart-btn button.button.button-small.button-positive{
@@ -287,6 +287,22 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 	right: 0;
 }
 
+.quant-value input{
+	border: 1px solid;
+	border-radius: 3px;
+	width: 30%;
+	height: 30px;
+	margin-left: 10%;
+	padding: 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+.price-dtl .input-label{
+	color: #666666;
+	font-size: 16px;
+}
+
 .cart-details{
 	padding-top: 10px;
 }
@@ -346,38 +362,40 @@ a.item.item-thumbnail-left.cart-thumbnail img{
 
 /*orders*/
 
-.row1 .col-35, .row1 .col-40, .row1 .col-25{
+.row1 .col-30, .row1 .col-40, .row1 .col-30{
 	background: #2682cc;
-	text-align: center;
 	color: #ffffff;
 	font-size: 16px;
 	border-right: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
 }
-.row2 .col-35, .row2 .col-40, .row2 .col-25{
+
+.row2 .col-30, .row2 .col-40, .row2 .col-30{
 	background: #33adee;
-	text-align: center;
 	color: #0b3a50;
-	font-size: 15px;
+	font-size: 14px;
 	border-right: 1px solid #ffffff;
 	padding: 10px;
+	text-align: center;
 }
-.row3 .col-35, .row3 .col-40, .row3 .col-25{
+
+.row3 .col-30, .row3 .col-40, .row3 .col-30{
 	background: #2eabbd;
-	text-align: center;
 	color: #0b3a50;
-	font-size: 15px;
+	font-size: 14px;
 	border-right: 1px solid #ffffff;
 	padding: 10px;
-	
+	text-align: center;
 }
-.row4 .col-35, .row4 .col-40, .row4 .col-25{
+
+.row4 .col-30, .row4 .col-40, .row4 .col-30{
 	background: #2ba997;
-	text-align: center;
 	color: #0b3a50;
-	font-size: 15px;
+	font-size: 14px;
 	border-right: 1px solid #ffffff;
 	padding: 10px;
-	
+	text-align: center;
 }
 .row.row2, .row.row3, .row.row4{
 	margin-top: -3px;
