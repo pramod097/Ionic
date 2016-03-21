@@ -1,25 +1,46 @@
 <ion-view>
 	<ion-content>
 		<div class="list padding">
-        	<ion-item style='border-color: #3ac6fe;min-height:650px'>
-    	    	<h2 class="cart"><i class="icon ion-ios-cart"></i> Your Cart (1)</h2>
+    	<ion-item style='border-color: #3ac6fe;min-height:650px;padding: 10px'>
+	    	<h2 class="cart"><i class="icon ion-ios-cart"></i> Your Cart (1)</h2>
 
-    	    	<div class="list cart-details">
-    	    		<a class="item item-thumbnail-left cart-thumbnail" href="">
-    	    			<img src="../img/crown.jpg">
-    	    			<p>Unit 5ltr</p>
-      					<label class="item item-input price-dtl" style="padding: 0;border: none;">
+        <div class="row listing">
+          <div class="col col-33">
+            <img src="img/crown.jpg" width='100%' height="128">
+          </div>
+          <div class="col col-67 cart-thumbnail">
+              <div class="list">
+                <p>Unit 5ltr</p>
+                <div style="display: flex;padding: 5px 0;">
                   <span class="input-label">Quantity</span>
                   <div class='quant-value'>
                     <input type='text'>
                   </div>
-                </label>
-      					<p>AED 11.00</p>
-      					<button class="button button-icon button-clear ion-close-circled"></button>
-    				</a>
-    	    	</div>
-    	    	<div class="buy-btn"><button class="button button-small button-positive" ng-click="location('/app/user_details')">Buy</button></div>
-            </ion-item>
-    	</div>
+                </div>
+                <p>AED 11.00</p>
+                <button class="button button-icon button-clear ion-close-circled"></button>  
+              </div>    
+          </div>
+      </div>
+
+	    	<!-- <div class="list cart-details">
+	    		<a class="item item-thumbnail-left cart-thumbnail" href="">
+	    			<img src="../img/crown.jpg">
+	    			<p>Unit 5ltr</p>
+  					<label class="item item-input price-dtl" style="padding: 0;border: none;">
+              <span class="input-label">Quantity</span>
+              <div class='quant-value'>
+                <input type='text'>
+              </div>
+            </label>
+  					<p>AED 11.00</p>
+  					<button class="button button-icon button-clear ion-close-circled"></button>
+				  </a>
+	    	</div> -->
+	    	<div class="buy-btn">
+          <button class="button button-small button-positive" ng-click="location('/app/user_details')">Buy</button>
+        </div>
+      </ion-item>
+    </div>
 	</ion-content>
 </ion-view>

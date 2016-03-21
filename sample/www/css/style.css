@@ -270,41 +270,30 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	font-size: 20px;
 }
 
-a.item.item-thumbnail-left.cart-thumbnail{
-	min-height: 150px;
-	padding-left: 150px;
-}
-
-a.item.item-thumbnail-left.cart-thumbnail img{
-	max-width: 110px;
-	max-height: 128px;
-}
-
 .cart-thumbnail button.ion-close-circled{
 	font-size: 22px;
 	position: absolute;
-	top: -5%;
-	right: 0;
+	top: -20%;
+	right: 3%;
 }
 
 .quant-value input{
 	border: 1px solid;
 	border-radius: 3px;
-	width: 30%;
+	width: 25%;
 	height: 30px;
-	margin-left: 10%;
 	padding: 0;
 	text-align: center;
 	font-size: 16px;
 }
 
-.price-dtl .input-label{
-	color: #666666;
-	font-size: 16px;
+.col.col-67{
+	margin-left: 5%;
 }
 
-.cart-details{
-	padding-top: 10px;
+.listing{
+	border: 1px solid #dddddd;
+	margin-top: 15px;
 }
 
 .buy-btn button.button.button-small.button-positive{
