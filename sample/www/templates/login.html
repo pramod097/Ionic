@@ -1,0 +1,24 @@
+<ion-view view-title='Login'>
+  <ion-content class='login_bgrd'>
+    <div class="loginimg">
+      <img src="img/crown.jpg" width="100%">
+      <p>Al Ain Water</p>
+    </div>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input item-floating-label" style="border-color: transparent;">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder='Username' name='username' ng-model="loginData.username">
+        </label>
+        <label class="item item-input item-floating-label" style="border-color: transparent;">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder='Password' name='password' ng-model="loginData.password">
+        </label>
+        <button class="button button-full button-positive" style="margin-top: 50px" ng-click="login()">Log in</button>
+        <p class='center'><a href="#">Forgot Password</a></p>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
+
+

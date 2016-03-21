@@ -1,0 +1,426 @@
+/* Empty. Add your own CSS if you like */
+
+ion-header-bar.bar-stable.bar.bar-header{
+	background-color: #3ac6fe;
+}
+
+.bar-header{
+	height: 60px;
+	top: initial;
+}
+
+.bar.bar-stable .title{
+	top: initial;
+	font-size: 24px;
+	color: #666666;
+}
+
+.has-header{
+	top: 60px;
+}
+
+button.button.button-icon.button-clear.ion-navicon-round, 
+button.button.button-icon.button-clear.ion-ios-cart
+{
+	color: #f1f1f1;
+}
+
+button.button.button-icon.button-clear.ion-waterdrop{
+	color: #f1f1f1;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 45px;
+}
+
+button.button.button-icon.button-clear.ion-android-search{
+	color: #f1f1f1;
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 45px;
+}
+
+ion-item.item{
+	color: #3ac6fe;
+	font-size: 20px;
+}
+
+.right{
+	float: right;
+}
+
+.icon-right{
+	float: right;
+	font-size: 24px;
+	color: #3ac6fe;
+	margin-top: 8px;
+}
+
+ion-item.prodlist{
+	color: #6e6e6e;
+	font-size: 16px;
+}
+
+.img{
+	width: 100%;
+}
+
+.img-bottom{
+	width: 100%;
+	height: 215px;
+	margin-bottom: 15px;
+}
+
+.item-avatar{
+	padding-left: 85px;
+}
+
+.item-avatar > img:first-child{
+	max-width: 50px;
+	max-height: 50px;
+	top: 11px;
+	left: 15px;
+}
+
+.item-thumbnail-left .thumbnail > img:first-child{
+	top: 21px;
+}
+.item p{
+	font-size: 16px;
+}
+
+.item h2{
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.mgn-btm{
+	margin-bottom: 10px;
+}
+
+.list-space{
+	margin-bottom: 12px;
+	min-height: 125px;
+	padding-top: 20px;
+	border-color: #3ac6fe;
+}
+
+.list-space img{
+	top: 20px !important;
+}
+
+.p-margin{
+	margin: 25px 0 0;
+}
+.botom{
+	border-width: 0px;
+}
+
+.botom a{
+	margin-bottom: -10px;
+}
+
+
+/*slider*/
+.slider-pager{
+	height: 25px;
+}
+.slider-pager .slider-pager-page{
+	color: #3ac6fe;
+	opacity: 1;
+}
+.slider-pager .slider-pager-page.active{
+	color: #ffffff;
+}
+
+.center{
+	text-align: center;
+}
+button.button.button-icon.button-clear.ion-ios-play{
+	font-size: 32px;
+    color: #666666;
+    border: solid #ffffff;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    min-height: 50px;
+    line-height: 1;
+    letter-spacing: -5px;
+}
+button.button.button-icon.button-clear.ion-ios-skipbackward{
+	background-color: #ffffff;
+    color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 34%;
+    border-radius: 50%;
+    width: 35px;
+    min-height: 35px;
+    line-height: 1;
+    font-size: 22px;
+}
+button.button.button-icon.button-clear.ion-ios-skipforward{
+	background-color: #ffffff;
+    color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    border-radius: 50%;
+    width: 35px;
+    min-height: 35px;
+    line-height: 1;
+    font-size: 22px;
+}
+button.button.button-icon.button-clear.ion-android-settings{
+	color: #666666;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    font-size: 20px;
+    text-shadow: 0px 2px #ffffff;
+}
+button.button.button-icon.button-clear.ion-android-volume-down{
+	color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+    text-shadow: 0px 2px #ffffff;
+}
+
+.heading{
+	padding: 10px 0 0;
+	text-align: center;
+	color: #707070;
+	font-weight: 400;
+}
+
+/*details*/
+
+.price-dtls{
+	border: none;
+	padding: 0 10px;
+}
+
+.price-dtls .input-label{
+	font-size: 18px;
+}
+
+.price-dtls .span1{
+	margin-left: 3%;
+}
+
+.cart-btn button.button.button-small.button-positive{
+	font-size: 18px;
+	padding: 5px;
+	width: 75%
+}
+
+button.button.button-icon.button-clear.ion-arrow-expand{
+	color: #f1f1f1;
+    font-size: 28px;
+    position: absolute;
+    top: 40px;
+}
+
+.cart-btn{
+	margin-left: 18%;
+	width: 100%;
+}
+
+.item .p-details{
+	white-space: normal;
+	font-size: 14px;
+}
+
+.quant-val input{
+	border: 1px solid;
+	border-radius: 3px;
+	width: 45%;
+	margin-left: 10%;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+.quant-val button.button.button-icon.button-clear.ion-arrow-up-b,
+.quant-val button.button.button-icon.button-clear.ion-arrow-down-b{
+	font-size: 24px;
+	margin: -15% 26%;
+	color: #80c2fe;
+}
+
+.quant-val .button:after{
+	position: static;
+}
+
+/*cart*/
+
+.cart i.icon.ion-ios-cart{
+	color: #3ac6fe;
+	font-size: 32px;
+	margin-right: 2%;
+}
+
+.item .cart{
+	font-size: 20px;
+}
+
+.cart-thumbnail button.ion-close-circled{
+	font-size: 22px;
+	position: absolute;
+	top: -20%;
+	right: 3%;
+}
+
+.quant-value input{
+	border: 1px solid;
+	border-radius: 3px;
+	width: 25%;
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+.col.col-67{
+	margin-left: 5%;
+}
+
+.listing{
+	border: 1px solid #dddddd;
+	margin-top: 10px;
+}
+
+.buy-btn button.button.button-small.button-positive{
+	width: 35%;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.row + .row{
+	margin-top: 10px;
+	padding: 5px;
+}
+
+/*user_details*/
+.item-checkbox{
+	border: none;
+}
+.details_list .input-label{
+	float: left;
+	font-size: 18px;
+}
+.details_list{
+	margin-bottom: 50px;
+}
+.details_list input{
+	height: 20px;
+}
+.details_list .item-input{
+	border-top: none;
+	border-color: #3ac6fe;
+}
+.details_list textarea{
+	padding-right: 12px;
+}
+.width .input-label{
+	width: 25%;
+}
+.padding1{
+	padding: 25px 0;
+}
+.item-checkbox .checkbox{
+	left: 80%;
+}
+.checkbox input:before, .checkbox .checkbox-icon:before,
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
+	border-color: #3ac6fe;
+	border-radius: 0px;
+}
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before{
+	background: transparent;
+}
+.checkbox input:after, .checkbox-icon:after{
+	border: 2px solid #3ac6fe;
+	border-top: 0;
+	border-right: 0;
+}
+
+/*orders*/
+
+.row1 .col-30, .row1 .col-40, .row1 .col-30{
+	background: #2682cc;
+	color: #ffffff;
+	font-size: 16px;
+	border-right: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.row2 .col-30, .row2 .col-40, .row2 .col-30{
+	background: #33adee;
+	color: #0b3a50;
+	font-size: 14px;
+	border-right: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.row3 .col-30, .row3 .col-40, .row3 .col-30{
+	background: #2eabbd;
+	color: #0b3a50;
+	font-size: 14px;
+	border-right: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.row4 .col-30, .row4 .col-40, .row4 .col-30{
+	background: #2ba997;
+	color: #0b3a50;
+	font-size: 14px;
+	border-right: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+.row.row2, .row.row3, .row.row4{
+	margin-top: -3px;
+}
+
+.deliver{
+	white-space: normal;
+}
+
+/*login*/
+
+.item-floating-label .input-label{
+	color: #3ac6fe;
+}
+
+.loginimg img{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.loginimg{
+	text-align: center;
+	padding: 40px;
+}
+
+.loginimg p{
+	font-size: 24px;
+}
+
+.login_bgrd{
+	background: rgba(168, 238,239, 0.5);
+}
