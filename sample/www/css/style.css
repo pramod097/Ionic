@@ -293,7 +293,7 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 
 .listing{
 	border: 1px solid #dddddd;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .buy-btn button.button.button-small.button-positive{
@@ -302,6 +302,11 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	bottom: 20px;
 	right: 20px;
 	font-size: 18px;
+	padding: 5px;
+}
+
+.row + .row{
+	margin-top: 10px;
 	padding: 5px;
 }
 

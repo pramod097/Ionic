@@ -10,10 +10,16 @@ angular.module('starter.controllers', [])
   //});
 
   $scope.products = false;
-
   $scope.getProducts= function(){
     $scope.products = !$scope.products ;
-  }
+  };
+
+  $scope.showstartcard = true;
+  $scope.showsecondcard = true;
+  $scope.hidecard= function(){
+    $scope.showstartcard = false;
+    $scope.showsecondcard = true;
+  };
 
   // Perform the login action when the user submits the login form
   $scope.doLogin = function() {
