@@ -41,6 +41,11 @@ button.button.button-icon.button-clear.ion-android-search{
 	right: 45px;
 }
 
+.bar .button.back-button, .bar button.back-button{
+	z-index: 99;
+	margin-top: 5px;
+}
+
 ion-item.item{
 	color: #3ac6fe;
 	font-size: 20px;
@@ -271,10 +276,10 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 }
 
 .cart-thumbnail button.ion-close-circled{
-	font-size: 22px;
+	font-size: 20px;
 	position: absolute;
-	top: -20%;
-	right: 3%;
+	top: -20px;
+	right: 15px;
 }
 
 .quant-value input{
@@ -353,6 +358,11 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	border-top: 0;
 	border-right: 0;
 }
+.submit-btn button.button.button-small.button-positive{
+	width: 30%;
+	float: right;
+	font-size: 16px;
+}
 
 /*orders*/
 
@@ -423,4 +433,13 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 
 .login_bgrd{
 	background: rgba(168, 238,239, 0.5);
+}
+
+/*order details*/
+.order-detail{
+	border-left: 5px solid #3ac6fe;
+}
+
+.order-detail p{
+	margin-left: 10%;
 }
