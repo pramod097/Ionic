@@ -275,17 +275,21 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	font-size: 20px;
 }
 
+.cart-thumbnail{
+	margin-top: 10px;
+}
+
 .cart-thumbnail button.ion-close-circled{
-	font-size: 20px;
 	position: absolute;
-	top: -20px;
-	right: 15px;
+	top: -10px;
+	right: 0;
+	font-size: 20px;
 }
 
 .quant-value input{
-	border: 1px solid;
+	border: 1px solid #666666;
 	border-radius: 3px;
-	width: 25%;
+	width: 23%;
 	height: 30px;
 	padding: 0;
 	text-align: center;
@@ -308,6 +312,14 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	right: 20px;
 	font-size: 18px;
 	padding: 5px;
+}
+
+.price-dtl{
+	display: flex;
+}
+
+.price-dtl .input-label{
+	width: 30%;
 }
 
 .row + .row{
@@ -437,9 +449,10 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 
 /*order details*/
 .order-detail{
-	border-left: 5px solid #3ac6fe;
+	border-left: 8px solid #3ac6fe;
+	padding: 10px 0;
 }
 
 .order-detail p{
-	margin-left: 10%;
+	margin-left: 4%;
 }
