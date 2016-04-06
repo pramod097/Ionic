@@ -25,14 +25,6 @@ button.button.button-icon.button-clear.ion-ios-cart
 	color: #f1f1f1;
 }
 
-button.button.button-icon.button-clear.ion-waterdrop{
-	color: #f1f1f1;
-	position: absolute;
-	top: 5px;
-	bottom: 5px;
-	left: 45px;
-}
-
 button.button.button-icon.button-clear.ion-android-search{
 	color: #f1f1f1;
 	position: absolute;
@@ -216,7 +208,7 @@ button.button.button-icon.button-clear.ion-android-volume-down{
 }
 
 .price-dtls .span1{
-	margin-left: 3%;
+	margin-left: 2%;
 }
 
 .cart-btn button.button.button-small.button-positive{
@@ -322,11 +314,6 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	width: 30%;
 }
 
-.row + .row{
-	margin-top: 10px;
-	padding: 5px;
-}
-
 /*user_details*/
 .item-checkbox{
 	border: none;
@@ -383,7 +370,7 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	color: #ffffff;
 	font-size: 16px;
 	border-right: 1px solid #ffffff;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -392,7 +379,7 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	color: #0b3a50;
 	font-size: 14px;
 	border-right: 1px solid #ffffff;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -401,7 +388,7 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	color: #0b3a50;
 	font-size: 14px;
 	border-right: 1px solid #ffffff;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -409,16 +396,22 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 	background: #2ba997;
 	color: #0b3a50;
 	font-size: 14px;
+	padding: 10px 0;
 	border-right: 1px solid #ffffff;
-	padding: 10px;
 	text-align: center;
 }
-.row.row2, .row.row3, .row.row4{
-	margin-top: -3px;
+
+.botom{
+	margin-bottom: 1px;
 }
 
 .deliver{
 	white-space: normal;
+	vertical-align: middle;
+}
+
+.middle{
+	vertical-align: middle;
 }
 
 /*login*/
@@ -429,8 +422,8 @@ button.button.button-icon.button-clear.ion-arrow-expand{
 
 .loginimg img{
 	border-radius: 50%;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	margin-bottom: 10px;
 }
 
